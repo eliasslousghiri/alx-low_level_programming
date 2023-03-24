@@ -3,7 +3,6 @@
 /**
  * _isupper - checks for uppercase character
  * @c: Variable text
- *
  * Return: Always 0.
  */
 
@@ -11,7 +10,7 @@ int _isupper(int c)
 
 {
 
-	if (x >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
